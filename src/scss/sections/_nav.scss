@@ -3,6 +3,18 @@
   @media only screen and (min-device-width: 668px) {
     display: none;
   }
+
+  .nav__nav-items {
+    display: none;
+    width: 100%;
+  }
+
+  .nav__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .nav--tablet {

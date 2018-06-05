@@ -134,13 +134,22 @@ acronym {
 
 section {
   width: 100vw;
-  padding: 10px; }
+  padding: 10px;
+  border: 1px solid black; }
 
 .nav--phone {
   display: block; }
   @media only screen and (min-device-width: 668px) {
     .nav--phone {
       display: none; } }
+  .nav--phone .nav__nav-items {
+    display: none;
+    width: 100%; }
+  .nav--phone .nav__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
 
 .nav--tablet {
   display: none; }
