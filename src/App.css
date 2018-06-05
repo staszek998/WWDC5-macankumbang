@@ -131,3 +131,28 @@ acronym {
 
 * {
   box-sizing: border-box; }
+
+section {
+  width: 100vw;
+  padding: 10px; }
+
+.nav--phone {
+  display: block; }
+  @media only screen and (min-device-width: 668px) {
+    .nav--phone {
+      display: none; } }
+
+.nav--tablet {
+  display: none; }
+  @media only screen and (min-device-width: 668px) {
+    .nav--tablet {
+      display: block; } }
+  @media only screen and (min-device-width: 960px) {
+    .nav--tablet {
+      display: none; } }
+
+.nav--desktop {
+  display: none; }
+  @media only screen and (min-device-width: 960px) {
+    .nav--desktop {
+      display: block; } }
