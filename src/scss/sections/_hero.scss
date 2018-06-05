@@ -1,0 +1,13 @@
+.hero--phone {
+  display: block;
+  @media only screen and (min-device-width: 668px) {
+    display: none;
+  }
+}
+
+.hero--tablet-and-desktop {
+  display: none;
+  @media only screen and (min-device-width: 668px) {
+    display: block;
+  }
+}

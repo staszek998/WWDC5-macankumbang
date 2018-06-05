@@ -1,0 +1,13 @@
+.testimonials--mobile {
+  display: block;
+  @media only screen and (min-device-width: 960px) {
+    display: none;
+  }
+}
+
+.testimonials--desktop {
+  display: none;
+  @media only screen and (min-device-width: 960px) {
+    display: block;
+  }
+}

@@ -2,7 +2,14 @@ import React, { Component } from "react";
 
 class Hero extends Component {
   render() {
-    return <section className="hero">Hero section</section>;
+    return (
+      <div className="section-wrapper">
+        <section className="hero hero--phone">Hero for phone</section>
+        <section className="hero hero--tablet-and-desktop">
+          Hero for tablet and desktop
+        </section>
+      </div>
+    );
   }
 }
 

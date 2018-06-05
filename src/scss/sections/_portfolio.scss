@@ -1,0 +1,23 @@
+.portfolio--phone {
+  display: block;
+  @media only screen and (min-device-width: 668px) {
+    display: none;
+  }
+}
+
+.portfolio--tablet {
+  display: none;
+  @media only screen and (min-device-width: 668px) {
+    display: block;
+  }
+  @media only screen and (min-device-width: 960px) {
+    display: none;
+  }
+}
+
+.portfolio--desktop {
+  display: none;
+  @media only screen and (min-device-width: 960px) {
+    display: block;
+  }
+}
