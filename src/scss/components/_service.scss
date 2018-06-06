@@ -1,0 +1,15 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .service__description {
+        text-align: center;
+    }
+
+    // Temporary styles
+
+    margin-bottom: 20px;
+}

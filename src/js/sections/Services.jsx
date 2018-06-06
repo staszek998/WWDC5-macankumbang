@@ -15,28 +15,28 @@ class Services extends Component {
             title="Service title"
             description={lorem}
             href="#"
-            imgSrc="http://via.placeholder.com/20x20"
+            imgSrc="http://via.placeholder.com/50x50"
             imgAlt="Placeholder icon"
           />
           <Service
             title="Service title"
             description={lorem}
             href="#"
-            imgSrc="http://via.placeholder.com/20x20"
+            imgSrc="http://via.placeholder.com/50x50"
             imgAlt="Placeholder icon"
           />
           <Service
             title="Service title"
             description={lorem}
             href="#"
-            imgSrc="http://via.placeholder.com/20x20"
+            imgSrc="http://via.placeholder.com/50x50"
             imgAlt="Placeholder icon"
           />
           <Service
             title="Service title"
             description={lorem}
             href="#"
-            imgSrc="http://via.placeholder.com/20x20"
+            imgSrc="http://via.placeholder.com/50x50"
             imgAlt="Placeholder icon"
           />
         </section>
