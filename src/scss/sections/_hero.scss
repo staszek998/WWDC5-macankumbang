@@ -1,5 +1,10 @@
 .hero--phone {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
   @media only screen and (min-device-width: 668px) {
     display: none;
   }
