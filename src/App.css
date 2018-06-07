@@ -137,6 +137,13 @@ section {
   padding: 10px;
   border: 1px solid black; }
 
+.banner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+
 .service {
   display: flex;
   flex-direction: column;

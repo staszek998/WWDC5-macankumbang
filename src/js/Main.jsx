@@ -16,10 +16,10 @@ class Main extends Component {
         <Nav />
         <Hero />
         <Services />
-        <Banner text="Banner 1" />
+        <Banner title="Banner 1 title" subtitle="Banner 1 subtitle" />
         <Portfolio />
         <Testimonials />
-        <Banner text="Banner 2" />
+        <Banner title="Banner 2 title" subtitle="Banner 2 subtitle" />
         <Map />
         <Contact />
         <Footer />
