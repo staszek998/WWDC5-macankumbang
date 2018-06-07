@@ -144,6 +144,20 @@ section {
   justify-content: center;
   align-items: center; }
 
+.project {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
+  width: 50%;
+  padding: 20px;
+  background-color: lightgray; }
+
 .service {
   display: flex;
   flex-direction: column;
@@ -227,7 +241,20 @@ section {
       display: block; } }
 
 .portfolio--phone {
-  display: block; }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+  .portfolio--phone hr {
+    width: 30%; }
+  .portfolio--phone .projects__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
   @media only screen and (min-device-width: 668px) {
     .portfolio--phone {
       display: none; } }
