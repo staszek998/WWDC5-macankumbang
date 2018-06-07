@@ -375,3 +375,10 @@ section {
     border-radius: 50%; }
     .social-media-icons .icon:nth-child(2) {
       margin: 0 10px; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
