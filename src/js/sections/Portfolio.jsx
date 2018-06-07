@@ -46,6 +46,10 @@ class Portfolio extends Component {
             </a>
           </div>
           <Projects which={this.state.selected} />
+          <span>Browse all</span>
+          <a href="#" className="portfolio__link">
+            <i className="fas fa-angle-down" />
+          </a>
         </section>
         <section className="portfolio portfolio--tablet">
           Portfolio for tablet

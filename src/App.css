@@ -168,6 +168,21 @@ section {
   .service .service__description {
     text-align: center; }
 
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0; }
+
+.testimonial__image {
+  width: 30px;
+  height: 30px;
+  background-color: lightgray;
+  border-radius: 50%; }
+
 .nav--phone {
   display: block; }
   @media only screen and (min-device-width: 668px) {
@@ -275,7 +290,13 @@ section {
       display: block; } }
 
 .testimonials--mobile {
-  display: block; }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+  .testimonials--mobile hr {
+    width: 30%; }
   @media only screen and (min-device-width: 960px) {
     .testimonials--mobile {
       display: none; } }
