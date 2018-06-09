@@ -13,18 +13,16 @@ class Main extends Component {
   render() {
     return (
       <div className="main">
-        <div className="container">
-          <Nav />
-          <Hero />
-          <Services />
-          <Banner title="Banner 1 title" subtitle="Banner 1 subtitle" />
-          <Portfolio />
-          <Testimonials />
-          <Banner title="Banner 2 title" subtitle="Banner 2 subtitle" />
-          <Map />
-          <Contact />
-          <Footer />
-        </div>
+        <Nav />
+        <Hero />
+        <Services />
+        <Banner title="Banner 1 title" subtitle="Banner 1 subtitle" />
+        <Portfolio />
+        <Testimonials />
+        <Banner title="Banner 2 title" subtitle="Banner 2 subtitle" />
+        <Map />
+        <Contact />
+        <Footer />
       </div>
     );
   }

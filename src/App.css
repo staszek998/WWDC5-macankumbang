@@ -242,6 +242,24 @@ section {
   @media only screen and (min-device-width: 960px) {
     .nav--desktop {
       display: block; } }
+  .nav--desktop .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; }
+  .nav--desktop .nav__links-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+    .nav--desktop .nav__links-wrapper .nav__nav-link {
+      margin: 0 10px; }
+      .nav--desktop .nav__links-wrapper .nav__nav-link:first-child {
+        margin-left: 0; }
+      .nav--desktop .nav__links-wrapper .nav__nav-link:last-child {
+        margin-right: 0; }
 
 .hero--phone {
   display: flex;
