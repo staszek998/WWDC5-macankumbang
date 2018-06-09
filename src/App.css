@@ -133,12 +133,7 @@ acronym {
   box-sizing: border-box; }
 
 .container {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center; }
+  width: 100vw; }
   @media only screen and (min-device-width: 960px) {
     .container {
       width: 960px;
@@ -275,11 +270,13 @@ section {
   display: none; }
   @media only screen and (min-device-width: 668px) {
     .hero--tablet-and-desktop {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-items: center; } }
+      display: block; } }
+  .hero--tablet-and-desktop .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
   .hero--tablet-and-desktop .hero__col {
     width: 50%;
     display: flex;
