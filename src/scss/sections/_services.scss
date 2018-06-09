@@ -4,11 +4,11 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
- 
+
   hr {
     width: 30%;
   }
-  
+
   @media only screen and (min-device-width: 668px) {
     display: none;
   }
@@ -16,11 +16,37 @@
 
 .services--tablet {
   display: none;
+
   @media only screen and (min-device-width: 668px) {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
   }
+
   @media only screen and (min-device-width: 960px) {
     display: none;
+  }
+
+  hr {
+    width: 30%;
+  }
+
+  .services__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
 
