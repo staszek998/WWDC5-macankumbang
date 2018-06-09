@@ -397,6 +397,26 @@ section {
   @media only screen and (min-device-width: 960px) {
     .portfolio--desktop {
       display: block; } }
+  .portfolio--desktop .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+  .portfolio--desktop hr {
+    width: 30%; }
+  .portfolio--desktop .projects__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+    .portfolio--desktop .projects__wrapper .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center; }
 
 .testimonials--mobile {
   display: flex;
