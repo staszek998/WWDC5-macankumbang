@@ -242,7 +242,20 @@ section {
   display: none; }
   @media only screen and (min-device-width: 668px) {
     .hero--tablet-and-desktop {
-      display: block; } }
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; } }
+  .hero--tablet-and-desktop .hero__col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start; }
+    .hero--tablet-and-desktop .hero__col:last-child {
+      align-items: flex-end; }
 
 .services--phone {
   display: flex;
