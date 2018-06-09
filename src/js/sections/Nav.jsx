@@ -41,7 +41,28 @@ class Nav extends Component {
             </ul>
           </div>
         </section>
-        <section className="nav nav--tablet">Nav for tablet</section>
+        <section className="nav nav--tablet">
+          <span className="nav__logo">
+            M<strong>c</strong>
+          </span>
+          <div className="nav__links-wrapper">
+            <a href="#" className="nav__nav-link">
+              Home
+            </a>
+            <a href="#" className="nav__nav-link">
+              Services
+            </a>
+            <a href="#" className="nav__nav-link">
+              Work
+            </a>
+            <a href="#" className="nav__nav-link">
+              Testimonials
+            </a>
+            <a href="#" className="nav__nav-link">
+              Contact
+            </a>
+          </div>
+        </section>
         <section className="nav nav--desktop">Nav for desktop</section>
       </div>
     );

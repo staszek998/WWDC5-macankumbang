@@ -201,10 +201,26 @@ section {
   display: none; }
   @media only screen and (min-device-width: 668px) {
     .nav--tablet {
-      display: block; } }
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center; } }
   @media only screen and (min-device-width: 960px) {
     .nav--tablet {
       display: none; } }
+  .nav--tablet .nav__links-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+    .nav--tablet .nav__links-wrapper .nav__nav-link {
+      margin: 0 10px; }
+      .nav--tablet .nav__links-wrapper .nav__nav-link:first-child {
+        margin-left: 0; }
+      .nav--tablet .nav__links-wrapper .nav__nav-link:last-child {
+        margin-right: 0; }
 
 .nav--desktop {
   display: none; }

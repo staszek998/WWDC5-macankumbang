@@ -19,11 +19,36 @@
 
 .nav--tablet {
   display: none;
+
   @media only screen and (min-device-width: 668px) {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
   }
+
   @media only screen and (min-device-width: 960px) {
     display: none;
+  }
+
+  .nav__links-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .nav__nav-link {
+      margin: 0 10px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 }
 
