@@ -325,10 +325,28 @@ section {
   display: none; }
   @media only screen and (min-device-width: 668px) {
     .portfolio--tablet {
-      display: block; } }
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; } }
   @media only screen and (min-device-width: 960px) {
     .portfolio--tablet {
       display: none; } }
+  .portfolio--tablet hr {
+    width: 30%; }
+  .portfolio--tablet .projects__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+    .portfolio--tablet .projects__wrapper .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center; }
 
 .portfolio--desktop {
   display: none; }
