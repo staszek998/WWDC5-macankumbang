@@ -19,4 +19,16 @@
   @media only screen and (min-device-width: 960px) {
     display: block;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  hr {
+    width: 30%;
+  }
 }

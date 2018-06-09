@@ -178,9 +178,14 @@ section {
   .service .service__description {
     text-align: center; }
 
+.testimonials--mobile .testimonial {
+  flex-direction: column; }
+
+.testimonials--desktop .testimonial {
+  flex-direction: row; }
+
 .testimonial {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
@@ -435,6 +440,14 @@ section {
   @media only screen and (min-device-width: 960px) {
     .testimonials--desktop {
       display: block; } }
+  .testimonials--desktop .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+  .testimonials--desktop hr {
+    width: 30%; }
 
 .contact--mobile {
   display: flex;

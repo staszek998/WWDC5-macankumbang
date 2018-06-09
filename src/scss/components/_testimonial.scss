@@ -1,6 +1,17 @@
+.testimonials--mobile {
+  .testimonial {
+    flex-direction: column;
+  }
+}
+
+.testimonials--desktop {
+  .testimonial {
+    flex-direction: row;
+  }
+}
+
 .testimonial {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;

@@ -78,7 +78,44 @@ class Testimonials extends Component {
           </div>
         </section>
         <section className="testimonials--desktop">
-          Testimonials for desktop
+          <div className="container">
+            <h2 className="testimonials__title">Testimonials</h2>
+            <span className="testimonials__subtitle">Subtitle</span>
+            <hr />
+            <Testimonial which={this.state.currentTestimonial} />
+            <div className="testimonials__selectors">
+              <button onClick={this.previousTestimonial} className="selector">
+                <i className="fas fa-angle-left" />
+              </button>
+              <button
+                onClick={() => this.changeTestimonial(1)}
+                className="selector"
+              >
+                <i className="fas fa-circle" />
+              </button>
+              <button
+                onClick={() => this.changeTestimonial(2)}
+                className="selector"
+              >
+                <i className="fas fa-circle" />
+              </button>
+              <button
+                onClick={() => this.changeTestimonial(3)}
+                className="selector"
+              >
+                <i className="fas fa-circle" />
+              </button>
+              <button
+                onClick={() => this.changeTestimonial(4)}
+                className="selector"
+              >
+                <i className="fas fa-circle" />
+              </button>
+              <button onClick={this.nextTestimonial} className="selector">
+                <i className="fas fa-angle-right" />
+              </button>
+            </div>
+          </div>
         </section>
       </div>
     );
