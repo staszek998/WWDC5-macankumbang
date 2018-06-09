@@ -132,10 +132,25 @@ acronym {
 * {
   box-sizing: border-box; }
 
-section {
+.container {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center; }
+  @media only screen and (min-device-width: 960px) {
+    .container {
+      width: 960px;
+      margin: 0 auto; } }
+
+section {
+  width: 100%;
   padding: 10px;
   border: 1px solid black; }
+
+.section-wrapper {
+  width: 100%; }
 
 .banner {
   display: flex;
