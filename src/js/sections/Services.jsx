@@ -80,7 +80,41 @@ class Services extends Component {
           </div>
         </section>
         <section className="services services--desktop">
-          Services for desktop
+          <div className="container">
+            <h1 className="services__title">Services title</h1>
+            <span className="services__subtitle">Services subtitle</span>
+            <hr />
+            <div className="services__wrapper">
+              <Service
+                title="Service title"
+                description={lorem}
+                href="#"
+                imgSrc="http://via.placeholder.com/50x50"
+                imgAlt="Placeholder icon"
+              />
+              <Service
+                title="Service title"
+                description={lorem}
+                href="#"
+                imgSrc="http://via.placeholder.com/50x50"
+                imgAlt="Placeholder icon"
+              />
+              <Service
+                title="Service title"
+                description={lorem}
+                href="#"
+                imgSrc="http://via.placeholder.com/50x50"
+                imgAlt="Placeholder icon"
+              />
+              <Service
+                title="Service title"
+                description={lorem}
+                href="#"
+                imgSrc="http://via.placeholder.com/50x50"
+                imgAlt="Placeholder icon"
+              />
+            </div>
+          </div>
         </section>
       </div>
     );

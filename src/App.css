@@ -331,6 +331,20 @@ section {
   @media only screen and (min-device-width: 960px) {
     .services--desktop {
       display: block; } }
+  .services--desktop .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+  .services--desktop hr {
+    width: 30%; }
+  .services--desktop .services__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
 
 .portfolio--phone {
   display: flex;
