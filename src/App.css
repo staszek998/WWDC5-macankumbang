@@ -194,9 +194,24 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   margin: 20px;
-  width: 50%;
-  padding: 20px;
-  background-color: lightgray; }
+  width: 80%;
+  padding: 40px 20px;
+  background-color: #475985; }
+  .project .project__title {
+    font-size: 24px;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center; }
+  .project .project__description {
+    font-size: 14px;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 20px 0; }
+  .project .project__icon {
+    color: white;
+    font-size: 30px; }
 
 .service {
   display: flex;
@@ -478,6 +493,33 @@ section {
   @media only screen and (min-device-width: 668px) {
     .portfolio--phone {
       display: none; } }
+  .portfolio--phone .portfolio__title,
+  .portfolio--phone .portfolio__subtitle {
+    color: #323232; }
+  .portfolio--phone .portfolio__title {
+    margin-top: 20px; }
+  .portfolio--phone .portfolio__subtitle {
+    margin: 10px 0; }
+  .portfolio--phone .portfolio__selectors-wrapper {
+    margin-top: 50px;
+    color: lightgray; }
+    .portfolio--phone .portfolio__selectors-wrapper a {
+      font-size: 18px;
+      font-family: "Open Sans";
+      text-align: center;
+      text-decoration: none;
+      color: lightgray; }
+      .portfolio--phone .portfolio__selectors-wrapper a.active {
+        color: #323232; }
+  .portfolio--phone span:last-of-type {
+    font-size: 18px;
+    color: #323232;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center; }
+  .portfolio--phone .portfolio__link {
+    font-size: 50px;
+    color: #323232; }
 
 .portfolio--tablet {
   display: none; }

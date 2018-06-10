@@ -21,6 +21,49 @@
   @media only screen and (min-device-width: 668px) {
     display: none;
   }
+
+  .portfolio__title,
+  .portfolio__subtitle {
+    color: rgb(50, 50, 50);
+  }
+
+  .portfolio__title {
+    margin-top: 20px;
+  }
+
+  .portfolio__subtitle {
+    margin: 10px 0;
+  }
+
+  .portfolio__selectors-wrapper {
+    margin-top: 50px;
+    color: lightgray;
+
+    a {
+      font-size: 18px;
+      font-family: "Open Sans";
+      text-align: center;
+      text-decoration: none;
+      color: lightgray;
+
+      &.active {
+        color: rgb(50, 50, 50);
+      }
+    }
+  }
+
+  span:last-of-type {
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .portfolio__link {
+    font-size: 50px;
+    color: rgb(50, 50, 50);
+  }
 }
 
 .portfolio--tablet {
