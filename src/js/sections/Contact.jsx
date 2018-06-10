@@ -1,20 +1,25 @@
 import React, { Component } from "react";
+import separator from "../../images/services/separator.png";
 
 class Contact extends Component {
   render() {
     return (
       <div className="section-wrapper">
         <section className="contact--mobile">
-          <h2 className="contact__title">Contact title</h2>
-          <span className="contact__subtitle">Contact subtitle</span>
-          <hr />
+          <h2 className="section-title contact__title">Contact</h2>
+          <span className="section-subtitle contact__subtitle">
+            Let's talk business
+          </span>
+          <img src={separator} className="contact__separator" alt="Separator" />
           <div className="contact__contact-details">
             <span>Office Hours:</span>
             <span>Monday to Friday 07:00-17:00</span>
             <span>Saturday 09:00-15:00</span>
-            <br />
+            <i className="fas fa-map-marker" />
             <span>Plac Defilad 1, 00-901 Warsaw</span>
+            <i className="fas fa-phone" />
             <span>+48 667 882 721</span>
+            <i className="fas fa-envelope" />
             <span>stanislaw.gregor@outlook.com</span>
             <div className="social-media-icons">
               <div className="icon">
@@ -29,10 +34,8 @@ class Contact extends Component {
             </div>
           </div>
           <form action="submit" className="contact__form">
-            <div className="inputs-wrapper">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email address" />
-            </div>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email address" />
             <textarea name="" cols="30" rows="10" placeholder="Message" />
             <input type="submit" value="Send" />
           </form>
