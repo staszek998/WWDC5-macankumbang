@@ -165,7 +165,24 @@ section {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-image: url("./images/banner/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 20px; }
+  .banner .banner__title {
+    font-size: 32px;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; }
+  .banner .banner__subtitle {
+    font-size: 24px;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center; }
 
 .project {
   display: flex;

@@ -16,7 +16,7 @@ class Main extends Component {
         <Nav />
         <Hero />
         <Services />
-        <Banner title="Banner 1 title" subtitle="Banner 1 subtitle" />
+        <Banner title="Our greatest works" subtitle="come from the greatest ideas of our awesome Customers" />
         <Portfolio />
         <Testimonials />
         <Banner title="Banner 2 title" subtitle="Banner 2 subtitle" />
