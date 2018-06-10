@@ -245,12 +245,43 @@ section {
     margin: 10px 0; }
 
 .testimonials--mobile .testimonial {
-  flex-direction: column; }
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 20px 0; }
+
+.testimonials--mobile .testimonial__image {
+  width: 120px;
+  height: 120px;
+  background-color: lightgray;
+  border-radius: 50%;
+  border: 5px solid #eaeaea; }
+
+.testimonials--mobile .testimonial__text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+.testimonials--mobile .quotation {
+  font-size: 18px;
+  color: #323232;
+  font-family: "Open Sans";
+  font-style: italic;
+  margin: 20px 0; }
+
+.testimonials--mobile .author {
+  font-size: 24px;
+  color: #323232;
+  font-family: "Open Sans";
+  font-weight: bold;
+  align-self: flex-end; }
 
 .testimonials--desktop .testimonial {
-  flex-direction: row; }
-
-.testimonial {
+  flex-direction: row;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -258,7 +289,7 @@ section {
   width: 100%;
   margin: 20px 0; }
 
-.testimonial__image {
+.testimonials--desktop .testimonial__image {
   width: 30px;
   height: 30px;
   background-color: lightgray;
@@ -579,12 +610,27 @@ section {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding: 50px 0; }
   .testimonials--mobile hr {
     width: 30%; }
   @media only screen and (min-device-width: 960px) {
     .testimonials--mobile {
       display: none; } }
+  .testimonials--mobile .testimonials__title,
+  .testimonials--mobile .testimonials__subtitle {
+    color: #323232; }
+  .testimonials--mobile .testimonials__subtitle {
+    margin: 10px 0; }
+  .testimonials--mobile .selector {
+    background: none;
+    border: none; }
+    .testimonials--mobile .selector i {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #7b7b7b; }
+      .testimonials--mobile .selector i.active {
+        color: #313131; }
 
 .testimonials--desktop {
   display: none; }

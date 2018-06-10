@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Testimonial from "../components/Testimonial";
+import separator from "../../images/portfolio/separator.png";
 
 class Testimonials extends Component {
   state = {
@@ -37,12 +38,31 @@ class Testimonials extends Component {
   };
 
   render() {
+    let selector1Classes = `fas fa-circle ${
+      this.state.currentTestimonial === 1 ? "active" : ""
+    }`;
+    let selector2Classes = `fas fa-circle ${
+      this.state.currentTestimonial === 2 ? "active" : ""
+    }`;
+    let selector3Classes = `fas fa-circle ${
+      this.state.currentTestimonial === 3 ? "active" : ""
+    }`;
+    let selector4Classes = `fas fa-circle ${
+      this.state.currentTestimonial === 4 ? "active" : ""
+    }`;
+
     return (
       <div className="section-wrapper">
         <section className="testimonials--mobile">
-          <h2 className="testimonials__title">Testimonials</h2>
-          <span className="testimonials__subtitle">Subtitle</span>
-          <hr />
+          <h2 className="section-title testimonials__title">Testimonials</h2>
+          <span className="section-subtitle testimonials__subtitle">
+            Subtitle
+          </span>
+          <img
+            src={separator}
+            className="portfolio__separator"
+            alt="Separator"
+          />
           <Testimonial which={this.state.currentTestimonial} />
           <div className="testimonials__selectors">
             <button onClick={this.previousTestimonial} className="selector">
@@ -52,25 +72,25 @@ class Testimonials extends Component {
               onClick={() => this.changeTestimonial(1)}
               className="selector"
             >
-              <i className="fas fa-circle" />
+              <i className={selector1Classes} />
             </button>
             <button
               onClick={() => this.changeTestimonial(2)}
               className="selector"
             >
-              <i className="fas fa-circle" />
+              <i className={selector2Classes} />
             </button>
             <button
               onClick={() => this.changeTestimonial(3)}
               className="selector"
             >
-              <i className="fas fa-circle" />
+              <i className={selector3Classes} />
             </button>
             <button
               onClick={() => this.changeTestimonial(4)}
               className="selector"
             >
-              <i className="fas fa-circle" />
+              <i className={selector4Classes} />
             </button>
             <button onClick={this.nextTestimonial} className="selector">
               <i className="fas fa-angle-right" />
@@ -91,25 +111,25 @@ class Testimonials extends Component {
                 onClick={() => this.changeTestimonial(1)}
                 className="selector"
               >
-                <i className="fas fa-circle" />
+                <i className={selector1Classes} />
               </button>
               <button
                 onClick={() => this.changeTestimonial(2)}
                 className="selector"
               >
-                <i className="fas fa-circle" />
+                <i className={selector1Classes} />
               </button>
               <button
                 onClick={() => this.changeTestimonial(3)}
                 className="selector"
               >
-                <i className="fas fa-circle" />
+                <i className={selector1Classes} />
               </button>
               <button
                 onClick={() => this.changeTestimonial(4)}
                 className="selector"
               >
-                <i className="fas fa-circle" />
+                <i className={selector1Classes} />
               </button>
               <button onClick={this.nextTestimonial} className="selector">
                 <i className="fas fa-angle-right" />
