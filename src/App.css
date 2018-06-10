@@ -792,4 +792,16 @@ section {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-color: #1e1b2d;
+  padding: 30px 0; }
+  .footer .footer__copyright {
+    font-size: 14px;
+    color: #76777f;
+    font-family: "Open Sans"; }
+  .footer .footer__logo {
+    font-size: 32px;
+    color: #76777f;
+    font-family: "Open Sans"; }
+    .footer .footer__logo strong {
+      font-weight: bold; }

@@ -4,4 +4,22 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  background-color: #1e1b2d;
+  padding: 30px 0;
+
+  .footer__copyright {
+    font-size: 14px;
+    color: rgb(118, 119, 127);
+    font-family: "Open Sans";
+  }
+
+  .footer__logo {
+    font-size: 32px;
+    color: rgb(118, 119, 127);
+    font-family: "Open Sans";
+
+    strong {
+      font-weight: bold;
+    }
+  }
 }

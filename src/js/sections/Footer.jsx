@@ -5,11 +5,11 @@ class Footer extends Component {
     return (
       <section className="footer">
         <span className="footer__copyright">
-          Copyright &copy; 2017 Macankumbang
+          Copyright &copy; 2018 Macankumbang
         </span>
-        <span className="footer__logo">
-          Macan<strong>kumbang</strong>
-        </span>
+        <p className="footer__logo">
+          <strong>Macan</strong>kumbang
+        </p>
       </section>
     );
   }
