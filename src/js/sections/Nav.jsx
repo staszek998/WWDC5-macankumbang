@@ -28,16 +28,16 @@ class Nav extends Component {
                 <a href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
               </li>
               <li className="nav-item">
-                <a href="#">Work</a>
+                <a href="#work">Work</a>
               </li>
               <li className="nav-item">
-                <a href="#">Testimonials</a>
+                <a href="#testimonials">Testimonials</a>
               </li>
               <li className="nav-item">
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>

@@ -1,6 +1,7 @@
 .nav--phone {
   display: block;
   background-color: #161218;
+  padding: 20px;
 
   @media only screen and (min-device-width: 668px) {
     display: none;

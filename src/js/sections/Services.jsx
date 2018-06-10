@@ -12,7 +12,7 @@ class Services extends Component {
   render() {
     return (
       <div className="section-wrapper">
-        <section className="services services--phone">
+        <section className="services services--phone" id="services">
           <h1 className="section-title services__title">Our services</h1>
           <span className="section-subtitle services__subtitle">
             How can we amaze you?

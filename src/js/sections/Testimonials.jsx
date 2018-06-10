@@ -53,7 +53,7 @@ class Testimonials extends Component {
 
     return (
       <div className="section-wrapper">
-        <section className="testimonials--mobile">
+        <section className="testimonials--mobile" id="testimonials">
           <h2 className="section-title testimonials__title">Testimonials</h2>
           <span className="section-subtitle testimonials__subtitle">
             Subtitle

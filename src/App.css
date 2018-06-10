@@ -141,8 +141,7 @@ acronym {
 
 section {
   width: 100%;
-  padding: 10px;
-  border: 1px solid black; }
+  padding: 10px; }
 
 .section-wrapper {
   width: 100%; }
@@ -297,7 +296,8 @@ section {
 
 .nav--phone {
   display: block;
-  background-color: #161218; }
+  background-color: #161218;
+  padding: 20px; }
   @media only screen and (min-device-width: 668px) {
     .nav--phone {
       display: none; } }

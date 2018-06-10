@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="section-wrapper">
-        <section className="contact--mobile">
+        <section className="contact--mobile" id="contact">
           <h2 className="section-title contact__title">Contact</h2>
           <span className="section-subtitle contact__subtitle">
             Let's talk business
