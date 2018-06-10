@@ -646,6 +646,9 @@ section {
   .testimonials--desktop hr {
     width: 30%; }
 
+.map {
+  padding: 0; }
+
 .contact--mobile {
   display: flex;
   flex-direction: column;

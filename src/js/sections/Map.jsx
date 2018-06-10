@@ -9,7 +9,6 @@ class Map extends Component {
           width="100%"
           height="300px"
           frameBorder="0"
-          style={{ border: "0" }}
           allowFullScreen
         />
       </section>

@@ -16,10 +16,13 @@ class Main extends Component {
         <Nav />
         <Hero />
         <Services />
-        <Banner title="Our greatest works" subtitle="come from the greatest ideas of our awesome Customers" />
+        <Banner
+          title="Our greatest works"
+          subtitle="come from the greatest ideas of our awesome Customers"
+        />
         <Portfolio />
         <Testimonials />
-        <Banner title="Banner 2 title" subtitle="Banner 2 subtitle" />
+        <Banner title="Get in touch with us" subtitle="in the center of Warsaw" />
         <Map />
         <Contact />
         <Footer />
