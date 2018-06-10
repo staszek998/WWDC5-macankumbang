@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import Service from "../components/Service";
+import separator from "../../images/services/separator.png";
+import iconHeart from "../../images/services/icon-heart.png";
+import iconGlobe from "../../images/services/icon-globe.png";
+import iconMonitor from "../../images/services/icon-monitor.png";
+import iconRocket from "../../images/services/icon-rocket.png";
 
 const lorem = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem vel, doloribus, nobis illum, doloremque optio omnis quaerat.`;
 
@@ -8,35 +13,41 @@ class Services extends Component {
     return (
       <div className="section-wrapper">
         <section className="services services--phone">
-          <h1 className="services__title">Services title</h1>
-          <span className="services__subtitle">Services subtitle</span>
-          <hr />
+          <h1 className="section-title services__title">Our services</h1>
+          <span className="section-subtitle services__subtitle">
+            How can we amaze you?
+          </span>
+          <img
+            src={separator}
+            className="services__separator"
+            alt="Separator"
+          />
           <Service
             title="Service title"
             description={lorem}
             href="#"
-            imgSrc="http://via.placeholder.com/50x50"
+            imgSrc={iconHeart}
             imgAlt="Placeholder icon"
           />
           <Service
             title="Service title"
             description={lorem}
             href="#"
-            imgSrc="http://via.placeholder.com/50x50"
+            imgSrc={iconGlobe}
             imgAlt="Placeholder icon"
           />
           <Service
             title="Service title"
             description={lorem}
             href="#"
-            imgSrc="http://via.placeholder.com/50x50"
+            imgSrc={iconMonitor}
             imgAlt="Placeholder icon"
           />
           <Service
             title="Service title"
             description={lorem}
             href="#"
-            imgSrc="http://via.placeholder.com/50x50"
+            imgSrc={iconRocket}
             imgAlt="Placeholder icon"
           />
         </section>

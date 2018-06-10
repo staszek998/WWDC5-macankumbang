@@ -5,12 +5,18 @@
   justify-content: center;
   align-items: center;
 
-  hr {
-    width: 30%;
-  }
+  background-color: #475985;
 
   @media only screen and (min-device-width: 668px) {
     display: none;
+  }
+
+  .services__title {
+    margin-top: 20px;
+  }
+
+  .services__subtitle {
+    margin: 10px 0;
   }
 }
 

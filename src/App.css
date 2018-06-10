@@ -147,6 +147,19 @@ section {
 .section-wrapper {
   width: 100%; }
 
+.section-title {
+  font-size: 30px;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-align: center; }
+
+.section-subtitle {
+  font-size: 18px;
+  color: white;
+  font-family: "Open Sans";
+  text-align: center; }
+
 .banner {
   display: flex;
   flex-direction: column;
@@ -174,9 +187,30 @@ section {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px; }
+  margin-top: 30px; }
+  .service .service__title {
+    font-size: 18px;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin: 10px 0; }
   .service .service__description {
-    text-align: center; }
+    width: 221px;
+    font-size: 14px;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-bottom: 5px; }
+  .service .service__button {
+    width: 88px;
+    height: 33px;
+    border-radius: 2px;
+    background-color: #e95b57;
+    font-size: 11px;
+    color: white;
+    font-family: "Open Sans";
+    border: none;
+    margin: 10px 0; }
 
 .testimonials--mobile .testimonial {
   flex-direction: column; }
@@ -352,12 +386,15 @@ section {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center; }
-  .services--phone hr {
-    width: 30%; }
+  align-items: center;
+  background-color: #475985; }
   @media only screen and (min-device-width: 668px) {
     .services--phone {
       display: none; } }
+  .services--phone .services__title {
+    margin-top: 20px; }
+  .services--phone .services__subtitle {
+    margin: 10px 0; }
 
 .services--tablet {
   display: none; }

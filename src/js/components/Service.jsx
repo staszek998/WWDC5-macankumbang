@@ -11,9 +11,13 @@ class Service extends Component {
         />
         <h3 className="service__title">{this.props.title}</h3>
         <p className="service__description">{this.props.description}</p>
-        <a className="service__button" type='button' href={this.props.href}>
-          Learn more
-        </a>
+        <button
+          className="service__button"
+          type="button"
+          href={this.props.href}
+        >
+          More
+        </button>
       </div>
     );
   }
