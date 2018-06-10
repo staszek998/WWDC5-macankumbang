@@ -296,10 +296,35 @@ section {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-color: #1e1b2d; }
   @media only screen and (min-device-width: 668px) {
     .hero--phone {
       display: none; } }
+  .hero--phone .hero__title {
+    font-size: 36px;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-top: 20px; }
+  .hero--phone .hero__subtitle {
+    font-size: 24px;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 20px 0; }
+  .hero--phone .hero__image {
+    width: 80%; }
+  .hero--phone .hero__button {
+    width: 145px;
+    height: 54px;
+    border-radius: 4px;
+    background-color: #e95b57;
+    font-size: 18px;
+    color: white;
+    font-family: "Open Sans";
+    border: none;
+    margin: 20px 0; }
 
 .hero--tablet-and-desktop {
   display: none; }

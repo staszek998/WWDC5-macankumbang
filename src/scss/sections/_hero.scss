@@ -5,8 +5,42 @@
   justify-content: center;
   align-items: center;
 
+  background-color: #1e1b2d;
+
   @media only screen and (min-device-width: 668px) {
     display: none;
+  }
+
+  .hero__title {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .hero__subtitle {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .hero__image {
+    width: 80%;
+  }
+
+  .hero__button {
+    width: 145px;
+    height: 54px;
+    border-radius: 4px;
+    background-color: #e95b57;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    border: none;
+    margin: 20px 0;
   }
 }
 
