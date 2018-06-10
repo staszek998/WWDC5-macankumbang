@@ -3,6 +3,7 @@ import $ from "jquery";
 
 class Nav extends Component {
   buttonCllickHandler = event => {
+    event.preventDefault();
     $(".nav__nav-items").slideToggle();
   };
 
@@ -11,9 +12,9 @@ class Nav extends Component {
       <div className="section-wrapper">
         <section className="nav nav--phone">
           <div className="nav__wrapper">
-            <span className="nav__logo">
-              Macan<strong>kumbang</strong>
-            </span>
+            <p className="nav__logo">
+              Macan<span>kumbang</span>
+            </p>
             <button
               className="nav__hamburger"
               onClick={this.buttonCllickHandler}

@@ -199,7 +199,8 @@ section {
   border-radius: 50%; }
 
 .nav--phone {
-  display: block; }
+  display: block;
+  background-color: #161218; }
   @media only screen and (min-device-width: 668px) {
     .nav--phone {
       display: none; } }
@@ -211,6 +212,35 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: center; }
+  .nav--phone .nav__logo {
+    font-size: 20px;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: bold; }
+    .nav--phone .nav__logo span {
+      font-weight: normal; }
+  .nav--phone .nav__hamburger {
+    background: none;
+    outline: none;
+    border: none; }
+    .nav--phone .nav__hamburger i {
+      color: white;
+      font-size: 20px; }
+  .nav--phone .nav__nav-items ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center; }
+  .nav--phone .nav-item {
+    margin: 5px 0; }
+    .nav--phone .nav-item:first-child {
+      margin-top: 20px; }
+    .nav--phone .nav-item a {
+      font-size: 20px;
+      color: white;
+      font-family: "Open Sans";
+      text-decoration: none; }
 
 .nav--tablet {
   display: none; }

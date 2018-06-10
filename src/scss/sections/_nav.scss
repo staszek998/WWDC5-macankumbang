@@ -1,5 +1,7 @@
 .nav--phone {
   display: block;
+  background-color: #161218;
+
   @media only screen and (min-device-width: 668px) {
     display: none;
   }
@@ -14,6 +16,51 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .nav__logo {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-weight: bold;
+
+    span {
+      font-weight: normal;
+    }
+  }
+
+  .nav__hamburger {
+    background: none;
+    outline: none;
+    border: none;
+
+    i {
+      color: white;
+      font-size: 20px;
+    }
+  }
+
+  .nav__nav-items {
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+  }
+
+  .nav-item {
+    margin: 5px 0;
+    &:first-child {
+      margin-top: 20px;
+    }
+    a {
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      font-family: "Open Sans";
+      text-decoration: none;
+    }
   }
 }
 
