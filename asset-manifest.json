@@ -1,6 +1,10 @@
 {
-  "main.css": "static/css/main.0f0a933d.css",
-  "main.css.map": "static/css/main.0f0a933d.css.map",
-  "main.js": "static/js/main.80fc9f36.js",
-  "main.js.map": "static/js/main.80fc9f36.js.map"
+  "main.css": "static/css/main.016d152a.css",
+  "main.css.map": "static/css/main.016d152a.css.map",
+  "main.js": "static/js/main.065c521d.js",
+  "main.js.map": "static/js/main.065c521d.js.map",
+  "static/media/OpenSans-Bold.ttf": "static/media/OpenSans-Bold.f5331cb6.ttf",
+  "static/media/OpenSans-BoldItalic.ttf": "static/media/OpenSans-BoldItalic.f40598dd.ttf",
+  "static/media/OpenSans-Italic.ttf": "static/media/OpenSans-Italic.bf243bcb.ttf",
+  "static/media/OpenSans-Regular.ttf": "static/media/OpenSans-Regular.d7d5d458.ttf"
 }
