@@ -22,7 +22,10 @@ class Main extends Component {
         />
         <Portfolio />
         <Testimonials />
-        <Banner title="Get in touch with us" subtitle="in the center of Warsaw" />
+        <Banner
+          title="Get in touch with us"
+          subtitle="in the center of Warsaw"
+        />
         <Map />
         <Contact />
         <Footer />
