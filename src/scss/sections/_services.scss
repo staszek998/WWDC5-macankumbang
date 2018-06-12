@@ -22,6 +22,8 @@
 
 .services--tablet {
   display: none;
+  background-color: #475985;
+  padding: 50px 30px;
 
   @media only screen and (min-device-width: 668px) {
     display: flex;
@@ -39,19 +41,26 @@
     width: 30%;
   }
 
+  .services__subtitle {
+    margin: 10px 0;
+  }
+
   .services__wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-top: 40px;
 
     .row {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: space-between;
-      align-items: center;
+      justify-content: space-around;
+      align-items: flex-end;
+      width: 100%;
     }
   }
 }

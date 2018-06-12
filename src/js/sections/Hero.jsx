@@ -25,7 +25,7 @@ class Hero extends Component {
                 libero eos aperiam?
               </p>
               <button href="#" className="hero__button">
-                Hero button
+                More
               </button>
             </div>
             <div className="hero__col">
