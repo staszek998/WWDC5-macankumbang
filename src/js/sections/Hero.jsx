@@ -20,20 +20,16 @@ class Hero extends Component {
           <div className="container">
             <div className="hero__col">
               <h1 className="hero__title">Hero title</h1>
-              <p>
+              <p className="hero__subtitle">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
                 libero eos aperiam?
               </p>
-              <a type="button" href="#" className="hero__button">
+              <button href="#" className="hero__button">
                 Hero button
-              </a>
+              </button>
             </div>
             <div className="hero__col">
-              <img
-                src="http://via.placeholder.com/350x150"
-                alt="Hero image"
-                className="hero__image"
-              />
+              <img src={image} alt="Hero image" className="hero__image" />
             </div>
           </div>
         </section>

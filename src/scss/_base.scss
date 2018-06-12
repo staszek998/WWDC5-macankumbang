@@ -1,7 +1,12 @@
 .container {
-  width: 100vw;
+  width: 100%;
+
+  @media only screen and (min-device-width: 668px) {
+    padding: 0 20px;
+  }
 
   @media only screen and (min-device-width: 960px) {
+    padding: 0;
     width: 960px;
     margin: 0 auto;
   }
