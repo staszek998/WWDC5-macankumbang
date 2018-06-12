@@ -24,7 +24,7 @@ class Main extends Component {
         <Testimonials />
         <Banner
           title="Get in touch with us"
-          subtitle="in the center of Warsaw"
+          subtitle="in the very center of Warsaw"
         />
         <Map />
         <Contact />

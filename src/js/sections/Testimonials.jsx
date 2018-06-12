@@ -56,7 +56,7 @@ class Testimonials extends Component {
         <section className="testimonials--mobile" id="testimonials">
           <h2 className="section-title testimonials__title">Testimonials</h2>
           <span className="section-subtitle testimonials__subtitle">
-            Subtitle
+            What Our Customers say?
           </span>
           <img
             src={separator}
@@ -100,7 +100,9 @@ class Testimonials extends Component {
         <section className="testimonials--desktop">
           <div className="container">
             <h2 className="testimonials__title">Testimonials</h2>
-            <span className="testimonials__subtitle">Subtitle</span>
+            <span className="testimonials__subtitle">
+              What Our Customers say?
+            </span>
             <hr />
             <Testimonial which={this.state.currentTestimonial} />
             <div className="testimonials__selectors">
