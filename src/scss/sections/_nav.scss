@@ -67,6 +67,8 @@
 
 .nav--tablet {
   display: none;
+  background-color: #161218;
+  padding: 20px 20px;
 
   @media only screen and (min-device-width: 668px) {
     display: flex;
@@ -76,8 +78,15 @@
     align-items: center;
   }
 
-  @media only screen and (min-device-width: 960px) {
-    display: none;
+  .nav__logo {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-weight: bold;
+
+    span {
+      font-weight: initial;
+    }
   }
 
   .nav__links-wrapper {
@@ -89,6 +98,10 @@
 
     .nav__nav-link {
       margin: 0 10px;
+      font-size: 14px;
+      color: rgb(255, 255, 255);
+      font-family: "Open Sans";
+      text-decoration: none;
 
       &:first-child {
         margin-left: 0;
@@ -97,6 +110,10 @@
         margin-right: 0;
       }
     }
+  }
+
+  @media only screen and (min-device-width: 960px) {
+    display: none;
   }
 }
 

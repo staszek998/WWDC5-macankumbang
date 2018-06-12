@@ -43,9 +43,9 @@ class Nav extends Component {
           </div>
         </section>
         <section className="nav nav--tablet">
-          <span className="nav__logo">
-            M<strong>c</strong>
-          </span>
+          <p className="nav__logo">
+            Macan<span>kumbang</span>
+          </p>
           <div className="nav__links-wrapper">
             <a href="#" className="nav__nav-link">
               Home
