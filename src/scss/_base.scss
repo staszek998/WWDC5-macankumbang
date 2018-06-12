@@ -30,3 +30,31 @@ section {
   font-family: "Open Sans";
   text-align: center;
 }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: initial;
+  font-style: initial;
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: initial;
+  src: url(./fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: initial;
+  font-style: italic;
+  src: url(./fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans Bold";
+  font-weight: bold;
+  font-style: italic;
+  src: url(./fonts/OpenSans-BoldItalic.ttf);
+}

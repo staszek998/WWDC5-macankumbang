@@ -159,6 +159,30 @@ section {
   font-family: "Open Sans";
   text-align: center; }
 
+@font-face {
+  font-family: "Open Sans";
+  font-weight: initial;
+  font-style: initial;
+  src: url(./fonts/OpenSans-Regular.ttf); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: initial;
+  src: url(./fonts/OpenSans-Bold.ttf); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: initial;
+  font-style: italic;
+  src: url(./fonts/OpenSans-Italic.ttf); }
+
+@font-face {
+  font-family: "Open Sans Bold";
+  font-weight: bold;
+  font-style: italic;
+  src: url(./fonts/OpenSans-BoldItalic.ttf); }
+
 .banner {
   display: flex;
   flex-direction: column;
@@ -315,7 +339,7 @@ section {
     font-family: "Open Sans";
     font-weight: bold; }
     .nav--phone .nav__logo span {
-      font-weight: normal; }
+      font-weight: initial; }
   .nav--phone .nav__hamburger {
     background: none;
     outline: none;
