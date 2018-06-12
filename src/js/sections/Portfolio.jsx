@@ -26,8 +26,8 @@ class Portfolio extends Component {
     }`;
 
     return (
-      <div className="section-wrapper">
-        <section className="portfolio portfolio--phone" id="work">
+      <div className="section-wrapper" id="work">
+        <section className="portfolio portfolio--phone">
           <h1 className="section-title portfolio__title">Portfolio</h1>
           <span className="section-subtitle portfolio__subtitle">
             our awesome projects

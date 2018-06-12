@@ -50,16 +50,16 @@ class Nav extends Component {
             <a href="#" className="nav__nav-link">
               Home
             </a>
-            <a href="#" className="nav__nav-link">
+            <a href="#services" className="nav__nav-link">
               Services
             </a>
-            <a href="#" className="nav__nav-link">
+            <a href="#work" className="nav__nav-link">
               Work
             </a>
-            <a href="#" className="nav__nav-link">
+            <a href="#testimonials" className="nav__nav-link">
               Testimonials
             </a>
-            <a href="#" className="nav__nav-link">
+            <a href="#contact" className="nav__nav-link">
               Contact
             </a>
           </div>

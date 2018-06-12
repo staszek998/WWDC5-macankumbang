@@ -52,8 +52,8 @@ class Testimonials extends Component {
     }`;
 
     return (
-      <div className="section-wrapper">
-        <section className="testimonials--mobile" id="testimonials">
+      <div className="section-wrapper" id="testimonials">
+        <section className="testimonials--mobile">
           <h2 className="section-title testimonials__title">Testimonials</h2>
           <span className="section-subtitle testimonials__subtitle">
             What Our Customers say?

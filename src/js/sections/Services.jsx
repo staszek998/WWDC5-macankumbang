@@ -11,8 +11,8 @@ const lorem = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem vel
 class Services extends Component {
   render() {
     return (
-      <div className="section-wrapper">
-        <section className="services services--phone" id="services">
+      <div className="section-wrapper" id="services">
+        <section className="services services--phone">
           <h1 className="section-title services__title">Our services</h1>
           <span className="section-subtitle services__subtitle">
             How can we amaze you?
