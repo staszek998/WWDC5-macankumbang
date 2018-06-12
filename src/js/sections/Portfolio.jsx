@@ -69,14 +69,20 @@ class Portfolio extends Component {
           </a>
         </section>
         <section className="portfolio portfolio--tablet">
-          <h1 className="portfolio__title">Portfolio</h1>
-          <span className="portfolio__subtitle">Portfolio description</span>
-          <hr />
+          <h1 className="section-title portfolio__title">Portfolio</h1>
+          <span className="section-subtitle portfolio__subtitle">
+            our awesome projects
+          </span>
+          <img
+            src={separator}
+            className="portfolio__separator"
+            alt="Separator"
+          />
           <div className="portfolio__selectors-wrapper">
             <a
               href="#"
               onClick={this.selectorClickHandler}
-              className="portfolio__selector"
+              className={linkAllClasses}
             >
               All
             </a>{" "}
@@ -84,7 +90,7 @@ class Portfolio extends Component {
             <a
               href="#"
               onClick={this.selectorClickHandler}
-              className="portfolio__selector"
+              className={linkWebClasses}
             >
               Web
             </a>{" "}
@@ -92,7 +98,7 @@ class Portfolio extends Component {
             <a
               href="#"
               onClick={this.selectorClickHandler}
-              className="portfolio__selector"
+              className={linkPrintClasses}
             >
               Print
             </a>
