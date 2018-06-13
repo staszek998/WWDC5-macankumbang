@@ -836,6 +836,9 @@ section {
 
 .map {
   padding: 0; }
+  @media only screen and (min-device-width: 960px) {
+    .map iframe {
+      height: 350px; } }
 
 .contact--mobile {
   display: flex;
