@@ -6,6 +6,10 @@
   align-items: center;
   margin-top: 30px;
 
+  @media only screen and (min-device-width: 960px) {
+    width: 20%;
+  }
+
   .service__title {
     font-size: 18px;
     color: rgb(255, 255, 255);
@@ -15,7 +19,6 @@
   }
 
   .service__description {
-    width: 221px;
     font-size: 14px;
     color: rgb(255, 255, 255);
     font-family: "Open Sans";

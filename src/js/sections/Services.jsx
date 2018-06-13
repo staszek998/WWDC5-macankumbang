@@ -98,37 +98,43 @@ class Services extends Component {
         </section>
         <section className="services services--desktop">
           <div className="container">
-            <h1 className="services__title">Services title</h1>
-            <span className="services__subtitle">Services subtitle</span>
-            <hr />
+            <h1 className="section-title services__title">Our services</h1>
+            <span className="section-subtitle services__subtitle">
+              How can we amaze you?
+            </span>
+            <img
+              src={separator}
+              className="services__separator"
+              alt="Separator"
+            />
             <div className="services__wrapper">
               <Service
                 title="Service title"
                 description={lorem}
                 href="#"
-                imgSrc="http://via.placeholder.com/50x50"
-                imgAlt="Placeholder icon"
+                imgSrc={iconHeart}
+                imgAlt="Heart icon"
               />
               <Service
                 title="Service title"
                 description={lorem}
                 href="#"
-                imgSrc="http://via.placeholder.com/50x50"
-                imgAlt="Placeholder icon"
+                imgSrc={iconGlobe}
+                imgAlt="Globe icon"
               />
               <Service
                 title="Service title"
                 description={lorem}
                 href="#"
-                imgSrc="http://via.placeholder.com/50x50"
-                imgAlt="Placeholder icon"
+                imgSrc={iconMonitor}
+                imgAlt="Monitor icon"
               />
               <Service
                 title="Service title"
                 description={lorem}
                 href="#"
-                imgSrc="http://via.placeholder.com/50x50"
-                imgAlt="Placeholder icon"
+                imgSrc={iconRocket}
+                imgAlt="Rocket icon"
               />
             </div>
           </div>

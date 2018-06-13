@@ -250,6 +250,9 @@ section {
   justify-content: center;
   align-items: center;
   margin-top: 30px; }
+  @media only screen and (min-device-width: 960px) {
+    .service {
+      width: 20%; } }
   .service .service__title {
     font-size: 18px;
     color: white;
@@ -257,7 +260,6 @@ section {
     font-weight: bold;
     margin: 10px 0; }
   .service .service__description {
-    width: 221px;
     font-size: 14px;
     color: white;
     font-family: "Open Sans";
@@ -585,7 +587,9 @@ section {
       width: 100%; }
 
 .services--desktop {
-  display: none; }
+  display: none;
+  background-color: #475985;
+  padding-top: 50px; }
   @media only screen and (min-device-width: 960px) {
     .services--desktop {
       display: block; } }
@@ -595,14 +599,16 @@ section {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center; }
-  .services--desktop hr {
-    width: 30%; }
+  .services--desktop .services__subtitle {
+    margin: 10px 0; }
   .services--desktop .services__wrapper {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center; }
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0; }
 
 .portfolio--phone {
   display: flex;
