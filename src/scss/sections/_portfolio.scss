@@ -141,6 +141,8 @@
 
 .portfolio--desktop {
   display: none;
+  padding: 50px 0;
+
   @media only screen and (min-device-width: 960px) {
     display: block;
   }
@@ -153,8 +155,30 @@
     align-items: center;
   }
 
-  hr {
-    width: 30%;
+  .portfolio__title,
+  .portfolio__subtitle {
+    color: rgb(50, 50, 50);
+  }
+
+  .portfolio__subtitle {
+    margin: 10px 0;
+  }
+
+  .portfolio__selectors-wrapper {
+    margin-top: 50px;
+    color: lightgray;
+
+    a {
+      font-size: 18px;
+      font-family: "Open Sans";
+      text-align: center;
+      text-decoration: none;
+      color: lightgray;
+
+      &.active {
+        color: rgb(50, 50, 50);
+      }
+    }
   }
 
   .projects__wrapper {
@@ -171,5 +195,19 @@
       justify-content: space-between;
       align-items: center;
     }
+  }
+
+  span:last-of-type {
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .portfolio__link {
+    font-size: 50px;
+    color: rgb(50, 50, 50);
   }
 }

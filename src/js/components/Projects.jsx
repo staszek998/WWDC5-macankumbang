@@ -87,17 +87,21 @@ class Projects extends Component {
       if (this.props.which === "web") {
         return (
           <div className="projects__wrapper">
-            <Project title="Project for web" description={lorem} href="#" />
-            <Project title="Project for web" description={lorem} href="#" />
-            <Project title="Project for web" description={lorem} href="#" />
+            <div className="row">
+              <Project title="Project for web" description={lorem} href="#" />
+              <Project title="Project for web" description={lorem} href="#" />
+              <Project title="Project for web" description={lorem} href="#" />
+            </div>
           </div>
         );
       } else if (this.props.which === "print") {
         return (
           <div className="projects__wrapper">
-            <Project title="Project for print" description={lorem} href="#" />
-            <Project title="Project for print" description={lorem} href="#" />
-            <Project title="Project for print" description={lorem} href="#" />
+            <div className="row">
+              <Project title="Project for print" description={lorem} href="#" />
+              <Project title="Project for print" description={lorem} href="#" />
+              <Project title="Project for print" description={lorem} href="#" />
+            </div>
           </div>
         );
       } else if (this.props.which === "all") {

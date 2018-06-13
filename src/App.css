@@ -709,7 +709,8 @@ section {
     color: #323232; }
 
 .portfolio--desktop {
-  display: none; }
+  display: none;
+  padding: 50px 0; }
   @media only screen and (min-device-width: 960px) {
     .portfolio--desktop {
       display: block; } }
@@ -719,8 +720,22 @@ section {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center; }
-  .portfolio--desktop hr {
-    width: 30%; }
+  .portfolio--desktop .portfolio__title,
+  .portfolio--desktop .portfolio__subtitle {
+    color: #323232; }
+  .portfolio--desktop .portfolio__subtitle {
+    margin: 10px 0; }
+  .portfolio--desktop .portfolio__selectors-wrapper {
+    margin-top: 50px;
+    color: lightgray; }
+    .portfolio--desktop .portfolio__selectors-wrapper a {
+      font-size: 18px;
+      font-family: "Open Sans";
+      text-align: center;
+      text-decoration: none;
+      color: lightgray; }
+      .portfolio--desktop .portfolio__selectors-wrapper a.active {
+        color: #323232; }
   .portfolio--desktop .projects__wrapper {
     display: flex;
     flex-direction: column;
@@ -733,6 +748,16 @@ section {
       flex-wrap: nowrap;
       justify-content: space-between;
       align-items: center; }
+  .portfolio--desktop span:last-of-type {
+    font-size: 18px;
+    color: #323232;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; }
+  .portfolio--desktop .portfolio__link {
+    font-size: 50px;
+    color: #323232; }
 
 .testimonials--mobile {
   display: flex;
