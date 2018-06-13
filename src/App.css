@@ -500,6 +500,10 @@ section {
     justify-content: center;
     align-items: center;
     margin: 50px 0; }
+    @media only screen and (min-device-width: 960px) {
+      .hero--tablet-and-desktop .container {
+        width: 960px;
+        margin: 40px auto; } }
   .hero--tablet-and-desktop .hero__col {
     width: 50%;
     display: flex;
@@ -529,7 +533,7 @@ section {
       color: white;
       font-family: "Open Sans"; }
     .hero--tablet-and-desktop .hero__col .hero__image {
-      width: 100%; }
+      width: 90%; }
 
 .services--phone {
   display: flex;
