@@ -6,10 +6,6 @@
   align-items: center;
   padding: 50px 0;
 
-  hr {
-    width: 30%;
-  }
-
   @media only screen and (min-device-width: 960px) {
     display: none;
   }
@@ -41,6 +37,7 @@
 
 .testimonials--desktop {
   display: none;
+  padding: 50px 0;
   @media only screen and (min-device-width: 960px) {
     display: block;
   }
@@ -53,7 +50,27 @@
     align-items: center;
   }
 
-  hr {
-    width: 30%;
+  .testimonials__title,
+  .testimonials__subtitle {
+    color: rgb(50, 50, 50);
+  }
+
+  .testimonials__subtitle {
+    margin: 10px 0;
+  }
+
+  .selector {
+    background: none;
+    border: none;
+
+    i {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #7b7b7b;
+
+      &.active {
+        color: #313131;
+      }
+    }
   }
 }

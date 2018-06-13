@@ -99,11 +99,15 @@ class Testimonials extends Component {
         </section>
         <section className="testimonials--desktop">
           <div className="container">
-            <h2 className="testimonials__title">Testimonials</h2>
-            <span className="testimonials__subtitle">
+            <h2 className="section-title testimonials__title">Testimonials</h2>
+            <span className="section-subtitle testimonials__subtitle">
               What Our Customers say?
             </span>
-            <hr />
+            <img
+              src={separator}
+              className="portfolio__separator"
+              alt="Separator"
+            />
             <Testimonial which={this.state.currentTestimonial} />
             <div className="testimonials__selectors">
               <button onClick={this.previousTestimonial} className="selector">
@@ -119,19 +123,19 @@ class Testimonials extends Component {
                 onClick={() => this.changeTestimonial(2)}
                 className="selector"
               >
-                <i className={selector1Classes} />
+                <i className={selector2Classes} />
               </button>
               <button
                 onClick={() => this.changeTestimonial(3)}
                 className="selector"
               >
-                <i className={selector1Classes} />
+                <i className={selector3Classes} />
               </button>
               <button
                 onClick={() => this.changeTestimonial(4)}
                 className="selector"
               >
-                <i className={selector1Classes} />
+                <i className={selector4Classes} />
               </button>
               <button onClick={this.nextTestimonial} className="selector">
                 <i className="fas fa-angle-right" />
