@@ -66,23 +66,23 @@ class Nav extends Component {
         </section>
         <section className="nav nav--desktop">
           <div className="container">
-            <span className="nav__logo">
-              Macan<strong>kumbang</strong>
-            </span>
+            <p className="nav__logo">
+              Macan<span>kumbang</span>
+            </p>
             <div className="nav__links-wrapper">
               <a href="#" className="nav__nav-link">
                 Home
               </a>
-              <a href="#" className="nav__nav-link">
+              <a href="#services" className="nav__nav-link">
                 Services
               </a>
-              <a href="#" className="nav__nav-link">
+              <a href="#work" className="nav__nav-link">
                 Work
               </a>
-              <a href="#" className="nav__nav-link">
+              <a href="#testimonials" className="nav__nav-link">
                 Testimonials
               </a>
-              <a href="#" className="nav__nav-link">
+              <a href="#contact" className="nav__nav-link">
                 Contact
               </a>
             </div>

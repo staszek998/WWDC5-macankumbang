@@ -119,6 +119,7 @@
 
 .nav--desktop {
   display: none;
+  background-color: #161218;
 
   @media only screen and (min-device-width: 960px) {
     display: block;
@@ -130,6 +131,18 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
+  }
+
+  .nav__logo {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-weight: bold;
+
+    span {
+      font-weight: initial;
+    }
   }
 
   .nav__links-wrapper {
@@ -148,6 +161,21 @@
       &:last-child {
         margin-right: 0;
       }
+    }
+  }
+
+  .nav__nav-link {
+    margin: 0 10px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    text-decoration: none;
+
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
     }
   }
 }
